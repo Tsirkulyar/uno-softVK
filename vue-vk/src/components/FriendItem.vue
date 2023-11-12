@@ -77,7 +77,7 @@ export default{
             'Content-Type': 'multipart/form-data; application/json; charset=utf-8',
           }
         };
-        const res = await fetch(`https://cors-anywhere.herokuapp.com/api/users.get?user_ids=${id}&fields=counters&access_token=afc49b43afc49b43afc49b43f6acd2ba11aafc4afc49b43cafb4eb6152e6f8c96801e71&v=5.131`,config);
+        const res = await fetch(`https://cors-anywhere.herokuapp.com/https://api.vk.com/method/users.get?user_ids=${id}&fields=counters&access_token=afc49b43afc49b43afc49b43f6acd2ba11aafc4afc49b43cafb4eb6152e6f8c96801e71&v=5.131`,config);
         const data = await res.json()
         this.InfoAbout = data.response[0].counters
         console.log(this.InfoAbout)
@@ -90,7 +90,7 @@ export default{
             'Content-Type': 'multipart/form-data; application/json; charset=utf-8',
           }
         };
-        const res = await fetch(`https://cors-anywhere.herokuapp.com/api/wall.get?owner_id=${id}&fields=photo_200_orig,bdate,about,activities&access_token=afc49b43afc49b43afc49b43f6acd2ba11aafc4afc49b43cafb4eb6152e6f8c96801e71&v=5.131`,config);
+        const res = await fetch(`https://cors-anywhere.herokuapp.com/https://api.vk.com/method/wall.get?owner_id=${id}&fields=photo_200_orig,bdate,about,activities&access_token=afc49b43afc49b43afc49b43f6acd2ba11aafc4afc49b43cafb4eb6152e6f8c96801e71&v=5.131`,config);
         const data = await res.json()
         console.log(data)
         this.WallPosts = data.response.items
