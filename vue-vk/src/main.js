@@ -1,0 +1,17 @@
+// import './assets/main.css'
+
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+
+import App from './App.vue'
+import router from './router'
+import '../src/assets/css/global.css'
+
+const app = createApp(App)
+// const cors = require('cors');
+// app.use(cors());
+
+app.use(createPinia())
+app.use(router)
+
+app.mount('#app')

@@ -1,0 +1,23 @@
+.card_text{
+    margin: auto;
+    margin-top: 15px;
+    width: 445px;
+    text-align: justify; 
+    float: right;
+}
+.container{
+    width: 1180px;
+    margin: auto;
+}
+.card_text h1{
+    
+}
+.wrapper_btn{
+    text-align: center;
+    margin-top: 60px;
+}
+.div_card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}

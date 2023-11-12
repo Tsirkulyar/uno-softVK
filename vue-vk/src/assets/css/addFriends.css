@@ -1,0 +1,31 @@
+.text_title h1{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+}
+.text_title p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.btn_wrap{
+    margin: auto;
+    text-align: center;
+}
+.list_wrap{
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    margin-top: 30px;
+}
+.textInfo h1{
+
+}
+.textInfo{
+    text-align: center;
+    margin: auto;
+}
+.textInfoTitle{
+    color: #1771f1
+}

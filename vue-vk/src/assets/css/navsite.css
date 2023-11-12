@@ -1,0 +1,24 @@
+.container{
+    width: 1180px;
+    margin: auto;
+}
+.nav_wrap{
+    display: flex;
+    justify-content: space-between
+}
+.nav_img{
+    display: block;
+    height: 65px;
+    width: 200px;
+}
+.nav_text{
+    display: flex;
+    gap: 25px;
+    padding-top: 20px;
+}
+.nav_text a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}

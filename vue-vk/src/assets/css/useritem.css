@@ -1,0 +1,46 @@
+.btn{
+    text-decoration: none;
+        color: #fff;
+        background-color: #1771f1;
+        border: none;
+        text-decoration: none;
+        color: #fff;
+        width: 70px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 25px;
+}
+.itemBlock{
+    margin-top: 20px;
+}
+.wrapper{
+    display:flex; 
+    justify-content: space-between;
+    gap: 30px
+}
+.item{
+    width: 100%;
+   border-radius: 15px;
+   margin: auto;
+   border: 1px solid black;
+}
+.divP{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   padding-left: 5px;
+   align-items: center;
+}
+.btn{
+   float: right;
+   padding-top: 10px;
+}
+.divP p{
+    font-size: 30px;
+}
+.btnInfo{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+}
